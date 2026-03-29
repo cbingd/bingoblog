@@ -25,7 +25,6 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 	},
 	[LinkPreset.Sponsor]: {
 		name: i18n(I18nKey.sponsor),
-		url: "/sponsor/",
 		icon: "material-symbols:favorite",
 	},
 	[LinkPreset.Guestbook]: {
@@ -40,7 +39,6 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 	},
 	[LinkPreset.Gallery]: {
 		name: i18n(I18nKey.gallery),
-		url: "/gallery/",
 		icon: "material-symbols:photo-library",
 	},
 };

@@ -18,7 +18,6 @@ export function scanAlbumPhotos(albumId: string): string[] {
 		const [coverFile] = files.splice(coverIdx, 1);
 		files.unshift(coverFile);
 	}
-	return files.map((f) => `/gallery/${albumId}/${f}`);
 }
 
 /**
